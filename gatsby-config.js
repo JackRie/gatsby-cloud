@@ -9,7 +9,13 @@ module.exports = {
 		{
 			resolve: `gatsby-source-wordpress`,
 			options: {
-				url: `https://fearless-pun.localsite.io/graphql`
+				url: `https://fearless-pun.localsite.io/graphql`,
+				auth: {
+					htaccess: {
+						username: `stretch`,
+						password: `quirky`
+					}
+				}
 			}
 		},
 		{
