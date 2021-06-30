@@ -15,7 +15,7 @@ const HomePage = () => {
 						<span dangerouslySetInnerHTML={{ __html: "<p>This is an excerpt</p>" }} />
 					</Text>
 					<Link as={GatsbyLink} to="#">
-						Read More &rarr;
+						Read More More &rarr;
 					</Link>
 				</Box>
 			</Stack>
